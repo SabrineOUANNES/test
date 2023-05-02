@@ -11,7 +11,7 @@ inputs:
 outputs:
   greeting:
     description: "The greeting"
-    value: "Hello \${{ inputs.who-to-greet }}!"
+    value: "Hello ${{ inputs.who-to-greet }}!"
 
 runs:
   using: "node12"
